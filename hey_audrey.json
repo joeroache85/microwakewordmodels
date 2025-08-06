@@ -3,7 +3,7 @@
     "wake_word": "Hey Audrey",
     "author": "Phillip Gallaty",
     "website": "https://github.com/joeroache85",
-    "model": "hey_audry.tflite",
+    "model": "https://github.com/joeroache85/microwakewordmodels/raw/refs/heads/main/hey_audrey.tflite",
     "trained_languages": [
         "en"
     ],
