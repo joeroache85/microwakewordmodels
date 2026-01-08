@@ -2,8 +2,8 @@
     "type": "micro",
     "wake_word": "Hey Audrey",
     "author": "Phillip Gallaty",
-    "website": "https://github.com/joeroache85/microwakewordmodels/en/",
-    "model": "hey_audrey.tflite",
+    "website": "https://github.com/joeroache85",
+    "model": "https://github.com/joeroache85/microwakewordmodels/blob/main/en/hey_audrey.json",
   "trained_languages": [
     "en"
   ],
