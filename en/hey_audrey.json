@@ -2,15 +2,17 @@
     "type": "micro",
     "wake_word": "Hey Audrey",
     "author": "Phillip Gallaty",
-    "website": "https://github.com/joeroache85",
-    "model": "https://github.com/joeroache85/microwakewordmodels/tree/main/en/hey_audrey.tflite",
-    "trained_languages": ["en"],
-    "version": 2,
-    "micro": {
-        "probability_cutoff": 0.97,
-        "feature_step_size": 10,
-        "sliding_window_size": 5,
-        "tensor_arena_size": 30000,
-        "minimum_esphome_version": "2024.7.0"
-    }
+    "website": "https://github.com/joeroache85/microwakewordmodels/tree/main/en/",
+    "model": "hey_audrey.tflite",
+  "trained_languages": [
+    "en"
+  ],
+  "version": 2,
+  "micro": {
+    "probability_cutoff": 0.66,
+    "feature_step_size": 10,
+    "sliding_window_size": 10,
+    "tensor_arena_size": 22860,
+    "minimum_esphome_version": "2024.7.0"
+  }
 }
